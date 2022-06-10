@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkstyled_gatsby_starter=self.webpackChunkstyled_gatsby_starter||[]).push([[569],{8464:function(e,t,a){a.r(t);var s=a(5485),r=a(4910);t.default=(0,s.Z)((function(e){return React.createElement(r.Z,Object.assign({name:"dram"},e))}))}}]);
-//# sourceMappingURL=component---src-pages-dram-dram-js-cc8812c27169a3e90578.js.map
