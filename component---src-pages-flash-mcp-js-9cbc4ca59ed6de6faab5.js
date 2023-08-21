@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkstyled_gatsby_starter=self.webpackChunkstyled_gatsby_starter||[]).push([[321],{8533:function(e,t,s){s.r(t);var a=s(7294),n=s(5485),r=s(1933);t.default=(0,n.Z)((function(e){return a.createElement(r.Z,Object.assign({name:"mcp"},e))}))}}]);
-//# sourceMappingURL=component---src-pages-flash-mcp-js-9cbc4ca59ed6de6faab5.js.map
