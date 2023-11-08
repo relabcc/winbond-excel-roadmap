@@ -2452,7 +2452,7 @@ const Box = (0,_utils_isToAs__WEBPACK_IMPORTED_MODULE_4__.default)(styled_compon
   shouldForwardProp: _styled_system_should_forward_prop__WEBPACK_IMPORTED_MODULE_1__.default
 }).withConfig({
   displayName: "Box"
-})(["", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", ""], styled_system__WEBPACK_IMPORTED_MODULE_2__.space, styled_system__WEBPACK_IMPORTED_MODULE_2__.layout, styled_system__WEBPACK_IMPORTED_MODULE_2__.position, styled_system__WEBPACK_IMPORTED_MODULE_2__.borders, styled_system__WEBPACK_IMPORTED_MODULE_2__.typography, styled_system__WEBPACK_IMPORTED_MODULE_2__.color, styled_system__WEBPACK_IMPORTED_MODULE_2__.position, styled_system__WEBPACK_IMPORTED_MODULE_2__.zIndex, styled_system__WEBPACK_IMPORTED_MODULE_2__.border, styled_system__WEBPACK_IMPORTED_MODULE_2__.flex, styled_system__WEBPACK_IMPORTED_MODULE_2__.borderRadius, styled_system__WEBPACK_IMPORTED_MODULE_2__.opacity, styled_system__WEBPACK_IMPORTED_MODULE_2__.background, (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('whiteSpace'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('overflow'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('transform'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('transition'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('pointerEvents'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('visibility'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('userSelect'), (0,styled_system__WEBPACK_IMPORTED_MODULE_2__.style)({
+})(["", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", ""], styled_system__WEBPACK_IMPORTED_MODULE_2__.space, styled_system__WEBPACK_IMPORTED_MODULE_2__.layout, styled_system__WEBPACK_IMPORTED_MODULE_2__.position, styled_system__WEBPACK_IMPORTED_MODULE_2__.typography, styled_system__WEBPACK_IMPORTED_MODULE_2__.color, styled_system__WEBPACK_IMPORTED_MODULE_2__.position, styled_system__WEBPACK_IMPORTED_MODULE_2__.zIndex, styled_system__WEBPACK_IMPORTED_MODULE_2__.border, styled_system__WEBPACK_IMPORTED_MODULE_2__.flex, styled_system__WEBPACK_IMPORTED_MODULE_2__.borderRadius, styled_system__WEBPACK_IMPORTED_MODULE_2__.opacity, (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('whiteSpace'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('overflow'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('transform'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('transition'), (0,_utils_injectProps__WEBPACK_IMPORTED_MODULE_3__.default)('pointerEvents'), (0,styled_system__WEBPACK_IMPORTED_MODULE_2__.style)({
   prop: 'zOrder',
   cssProperty: 'zIndex',
   key: 'zOrder'
@@ -2504,24 +2504,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-let Flex = (0,styled_components__WEBPACK_IMPORTED_MODULE_3__.default)(_Box__WEBPACK_IMPORTED_MODULE_1__.default).withConfig({
+const Flex = (0,styled_components__WEBPACK_IMPORTED_MODULE_3__.default)(_Box__WEBPACK_IMPORTED_MODULE_1__.default).withConfig({
   displayName: "Flex"
 })(["", ""], styled_system__WEBPACK_IMPORTED_MODULE_0__.flexbox);
 Flex.defaultProps = {
   display: 'flex'
 };
 Flex.displayName = 'Flex';
-Flex = (0,_utils_asForward__WEBPACK_IMPORTED_MODULE_2__.default)(Flex);
-Flex.HStack = (0,styled_components__WEBPACK_IMPORTED_MODULE_3__.default)(Flex).withConfig({
-  displayName: "Flex__HStack"
-})([">:not(style) ~:not(style){margin-left:", ";}"], props => props.spacing || '0.5em');
-Flex.VStack = (0,styled_components__WEBPACK_IMPORTED_MODULE_3__.default)(Flex).withConfig({
-  displayName: "Flex__VStack"
-})([">:not(style) ~:not(style){margin-top:", ";}"], props => props.spacing || '0.5em');
-Flex.VStack.defaultProps = {
-  flexDirection: 'column'
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Flex);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_utils_asForward__WEBPACK_IMPORTED_MODULE_2__.default)(Flex));
 
 /***/ }),
 
@@ -2671,10 +2661,6 @@ Text.Thin = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().c
   fontWeight: "200"
 }, props));
 
-Text.Mono = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Text, Object.assign({
-  fontFamily: "'Noto Sans Mono', monospace"
-}, props));
-
 lodash_range__WEBPACK_IMPORTED_MODULE_1___default()(1, 7).forEach(key => {
   Text[`H${key}`] = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Text, Object.assign({
     as: `h${key}`,
@@ -2697,22 +2683,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '@fontsource/noto-sans-mono/500.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '@fontsource/noto-sans-mono/900.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '@fontsource/noto-sans/500.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '@fontsource/noto-sans/700.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-Object(function webpackMissingModule() { var e = new Error("Cannot find module '@fontsource/noto-sans/900.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme */ "./src/components/ThemeProvider/theme.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./theme */ "./src/components/ThemeProvider/theme.js");
 
 
-
-
-
-
- // @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500;900&family=Noto+Sans:wght@500;700;900&display=swap');
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,styled_components__WEBPACK_IMPORTED_MODULE_2__.createGlobalStyle)(["body{font-family:", ";font-size:", ";min-width:100%;min-height:100%;}"], _theme__WEBPACK_IMPORTED_MODULE_1__.default.font, _theme__WEBPACK_IMPORTED_MODULE_1__.default.fontSize));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(["body{font-family:", ";font-size:", ";min-width:100%;min-height:100%;}"], _theme__WEBPACK_IMPORTED_MODULE_0__.default.font, _theme__WEBPACK_IMPORTED_MODULE_0__.default.fontSize));
 
 /***/ }),
 
@@ -2803,20 +2778,12 @@ const pink = '#FAC2C1';
 const powderBlue = '#4DACC2';
 const lightSeaGreen = '#add4d8';
 const primary = blue;
-const thBlue = '#234B69';
-const yearRed = '#C63B38';
-const seasonGray = '#CACACA';
-const descGray = '#E8E8E8';
-const densGray = '#B1B1B2';
-const noteGray = '#9FA0A0';
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   colors: {
     white,
     black,
     text: black,
     primary,
-    primaryHover: '#083951',
-    danger: red,
     gray,
     red,
     blue,
@@ -2827,13 +2794,7 @@ const noteGray = '#9FA0A0';
     steelBlue,
     pink,
     powderBlue,
-    lightSeaGreen,
-    thBlue,
-    yearRed,
-    seasonGray,
-    descGray,
-    densGray,
-    noteGray
+    lightSeaGreen
   },
   availColors: ['cyan', 'steelBlue', 'pink', 'powderBlue', 'lightSeaGreen', 'cyan'],
   breakpoints,
@@ -2860,16 +2821,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubComp => /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(({
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SubComp => ({
   as,
   ...props
-}, ref) => {
+}) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubComp, Object.assign({
     forwardedAs: as
-  }, props, {
-    ref: ref
-  }));
-}));
+  }, props));
+});
 
 /***/ }),
 
@@ -2964,36 +2923,6 @@ const DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v
 
 const SCOPES = "https://www.googleapis.com/auth/spreadsheets.readonly";
 
-const LocalStorageInput = ({
-  onChange,
-  name = '',
-  ...props
-}) => {
-  const loaded = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)();
-  const [value, setSpreadsheetUrl] = (0,_utils_hookWithLocalStorage__WEBPACK_IMPORTED_MODULE_2__.default)(`WINBOND_WORKBOOK_URL:${name}`, '', false)(react__WEBPACK_IMPORTED_MODULE_0__.useState);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    if (value) {
-      if (!loaded.current) {
-        onChange(value);
-      }
-
-      loaded.current = true;
-    }
-  }, [name, value]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Input__WEBPACK_IMPORTED_MODULE_3__.default, Object.assign({
-    name: name,
-    label: "\u8CBC\u4E0AExcel\u9023\u7D50",
-    value: value,
-    onChange: e => {
-      if (onChange) {
-        onChange(e.target.value);
-      }
-
-      setSpreadsheetUrl(e.target.value);
-    }
-  }, props));
-};
-
 const Provider = ({
   children
 }) => {
@@ -3013,11 +2942,11 @@ const Provider = ({
     0: loading,
     1: setLoading
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
+  const [spreadsheetUrl, setSpreadsheetUrl] = (0,_utils_hookWithLocalStorage__WEBPACK_IMPORTED_MODULE_2__.default)('WORKBOOK_URL', '', false)(react__WEBPACK_IMPORTED_MODULE_0__.useState);
   const {
-    0: spreadsheetUrl,
-    1: setSpreadsheetUrl
+    0: sheets,
+    1: setSheets
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
-  const [sheets, setSheets] = (0,use_immer__WEBPACK_IMPORTED_MODULE_6__.useImmer)({});
   const [sheetData, setSheetData] = (0,use_immer__WEBPACK_IMPORTED_MODULE_6__.useImmer)({});
   const initClient = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(() => {
     console.log('begin gapi install');
@@ -3088,12 +3017,10 @@ const Provider = ({
       };
       const request = gapi.client.sheets.spreadsheets.get(params);
       request.then(response => {
-        // console.log(response.result);
-        setSheets(draft => {
-          draft[spreadsheetId] = response.result.sheets.map(({
-            properties
-          }) => properties);
-        });
+        console.log(response.result);
+        setSheets(response.result.sheets.map(({
+          properties
+        }) => properties));
         setLoading(false);
       }, err => {
         console.error('error: ' + err.result.error.message);
@@ -3104,14 +3031,12 @@ const Provider = ({
   };
 
   const loadSheetData = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(sheeTitle => {
-    var _sheetData$spreadshee;
-
-    if (isSignedIn && !loading && spreadsheetId && !(sheetData !== null && sheetData !== void 0 && (_sheetData$spreadshee = sheetData[spreadsheetId]) !== null && _sheetData$spreadshee !== void 0 && _sheetData$spreadshee[sheeTitle])) {
+    if (isSignedIn && !loading && spreadsheetId && !sheetData[sheeTitle]) {
       // console.log('start load sheet data')
       setLoading(true);
       gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId,
-        range: `${sheeTitle}!A1:Z`
+        range: `${sheeTitle}!A1:T`
       }).then(response => {
         const {
           result
@@ -3119,8 +3044,7 @@ const Provider = ({
 
         if (result) {
           setSheetData(draft => {
-            draft[spreadsheetId] = draft[spreadsheetId] || {};
-            draft[spreadsheetId][sheeTitle] = result.values.map(row => lodash_range__WEBPACK_IMPORTED_MODULE_1___default()(26).map(i => row[i] || ''));
+            draft[sheeTitle] = result.values.map(row => lodash_range__WEBPACK_IMPORTED_MODULE_1___default()(20).map(i => row[i] || ''));
           });
         }
 
@@ -3131,10 +3055,12 @@ const Provider = ({
       });
     }
   }, [loading, isSignedIn, sheetData, spreadsheetId]);
-  const SpreadsheetIdInput = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(p => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(LocalStorageInput, Object.assign({
-    onChange: setSpreadsheetUrl,
+  const SpreadsheetIdInput = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(p => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Input__WEBPACK_IMPORTED_MODULE_3__.default, Object.assign({
+    label: "\u8CBC\u4E0AExcel\u9023\u7D50",
+    value: spreadsheetUrl,
+    onChange: e => setSpreadsheetUrl(e.target.value),
     onKeyUp: e => e.keyCode === 13 && loadSheets()
-  }, p)), []);
+  }, p)), [spreadsheetUrl]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_context__WEBPACK_IMPORTED_MODULE_5__.default.Provider, {
     value: {
       isSignedIn,
@@ -3143,8 +3069,8 @@ const Provider = ({
       loadSheets,
       loadSheetData,
       loading,
-      sheets: sheets[spreadsheetId] || [],
-      sheetData: sheetData[spreadsheetId] || {},
+      sheets,
+      sheetData,
       SpreadsheetIdInput,
       error
     }
